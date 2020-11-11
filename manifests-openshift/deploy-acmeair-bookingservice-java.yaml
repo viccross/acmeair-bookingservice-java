@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: acmeair-bookingservice-java
-        image: quay.io/powercloud/acmeair-bookingservice-java:1.0
+        image: quay.io/mmondics/acmeair-bookingservice-java-s390x:v1.0.0
         ports:
           - containerPort: 9080
           - containerPort: 9443
